@@ -1,4 +1,4 @@
-package ch.almana.android.logdebug;
+package ch.almana.android.util;
 
 import android.app.Activity;
 import android.content.pm.PackageInfo;

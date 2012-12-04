@@ -1,4 +1,4 @@
-package ch.almana.android.logdebug;
+package ch.almana.android.util;
 
 public class StringUtils {
 

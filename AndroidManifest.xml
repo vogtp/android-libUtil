@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ch.almana.android.logdebug"
+    package="ch.almana.android.util"
     android:versionCode="1"
     android:versionName="1.0" >
 
