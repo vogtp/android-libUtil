@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.widget.Toast;
 
 public class Debug {
 
@@ -20,5 +21,9 @@ public class Debug {
 		} catch (NameNotFoundException e) {
 		}
 		return false;
+	}
+
+	public static void notImplemented(Context context) {
+		Toast.makeText(context, "Not implemented!", Toast.LENGTH_SHORT).show();
 	}
 }
